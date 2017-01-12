@@ -1,7 +1,6 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
-	margin-left: 20px;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
@@ -37,7 +36,8 @@ body {
      z-index: -1;	
 }
 
-.project p { 
+.project { 
+	margin-left: 20px;
 	font-variant: small-caps;
 }
 
