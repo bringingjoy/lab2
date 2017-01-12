@@ -5,7 +5,10 @@
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
+.example-class-selector 
+p {
+	font-variant: small-caps;
+
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
 	color: #CC00AA;
 }
@@ -32,4 +35,16 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.project p { 
+	font-variant: small-caps;
+}
+
+#project1 {
+	font-variant:small-caps;
+	margin-left: 1px;
+	background-color: #ab1234;
+	padding: 1px;
+	width: 1px;
 }
