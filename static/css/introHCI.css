@@ -30,6 +30,9 @@
 .project { 
 	margin-left: 20px;
 	font-variant: small-caps;
+	background-color: #f0f8ff;
+	padding: 20px;
+	width: 725px;
 }
 
 p {
@@ -43,7 +46,4 @@ p {
 #project {
 	font-variant: small-caps;
 	margin-left: 10px;
-	background-color: #f0f8ff;
-	padding: 20px;
-	width: 725px;
 }
