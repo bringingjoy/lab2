@@ -27,23 +27,8 @@
      z-index: -1;	
 }
 
-.project { 
-	margin-left: 20px;
-	font-variant: small-caps;
-	background-color: #f0f8ff;
-	padding: 20px;
-	width: 725px;
-}
-
 p {
 	font-variant: small-caps;
 }
 
-.project p {
-	font-variant: small-caps;
-}
 
-#project {
-	font-variant: small-caps;
-	margin-left: 10px;
-}
