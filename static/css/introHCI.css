@@ -4,20 +4,11 @@
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector 
-p {
-	font-variant: small-caps;
-
+.example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
 	color: #CC00AA;
 }
 
-/* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
-}
 
 .jumbotron {
 	position: relative;
@@ -41,10 +32,18 @@ body {
 	font-variant: small-caps;
 }
 
+p {
+	font-variant: small-caps;
+}
+
+.project p {
+	font-variant: small-caps;
+}
+
 #project1 {
 	font-variant:small-caps;
-	margin-left: 1px;
-	background-color: #ab1234;
-	padding: 1px;
-	width: 1px;
+	margin-left: 10px;
+	background-color: #rb1313;
+	padding: 10px;
+	width: 10px;
 }
